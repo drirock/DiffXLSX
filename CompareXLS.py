@@ -164,11 +164,11 @@ def diff_xlsx(fname,fname2,newfile):
 # print(sys.argv[i])
  
 #if len(sys.argv) > 1 and len(sys.argv) <= 3:
-# path_new = sys.argv[1]
-# path_old = sys.argv[2]
+# path1 = sys.argv[1]
+# path2 = sys.argv[2]
 #else:
-# path_new = input("Enter first file name with absolute path: ")
-# path_old = input("Enter second file name with absolute path: ")
+# path1 = input("Enter first file name with absolute path: ")
+# path2 = input("Enter second file name with absolute path: ")
 
 ### Commentare per utilizzo linea di comando
 root = tk.Tk()
