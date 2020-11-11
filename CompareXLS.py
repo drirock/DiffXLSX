@@ -144,7 +144,7 @@ def diff_xlsx(fname,fname2,newfile):
            print(rows)
            OutputFile.write("Error on write output\nlist_idx: {0} \nlist_idx2: {1}\n".format(list_idx,list_idx2))
            os._exit(0)
-         if findCell == 0:
+         if findCell == 0 and (list_idx[SheetName_1]["Value"] != "" and list_idx[SheetName_1]["Value"] != {}):
            print(("{0};{1};{2};{3};;{4}".format(XMLName2[0],XMLName[0],list_idx[SheetName_1]['SheetName'],list_idx[SheetName_1]['Cella'],list_idx[SheetName_1]["Value"])))
            OutputFile.write(("{0};{1};{2};{3};;{4}\n".format(XMLName2[0],XMLName[0],list_idx[SheetName_1]['SheetName'],list_idx[SheetName_1]['Cella'],list_idx[SheetName_1]["Value"])))
         j+=1
