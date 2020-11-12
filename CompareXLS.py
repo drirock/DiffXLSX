@@ -9,7 +9,10 @@ import sys
 import os
 import zipfile
 from xml.etree.ElementTree import iterparse
+
+### Commentare per utilizzo linea di comando
 import tkinter as tk
+### Commentare per utilizzo linea di comando
 from tkinter import filedialog
  
 def diff_xlsx(fname,fname2,newfile):
